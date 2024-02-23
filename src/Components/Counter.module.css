@@ -1,0 +1,51 @@
+.counter{
+    display: flex;
+    /* border: 1px solid #000; */
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100vw;
+}
+.expHead{
+    color: rgb(200, 169, 126);
+    font-size: 1.5em;
+    line-height: 0;
+}
+.menuHead{
+    color: rgb(200, 169, 126);
+    font-size: 1.5em;
+    line-height: 0;
+}
+.staffHead{
+    color: rgb(200, 169, 126);
+    font-size: 1.5em;
+    line-height: 0;
+    
+}
+.customerHead{
+    color: rgb(200, 169, 126);
+    line-height: 0;
+    font-size: 1.5em;
+ 
+}
+.expPara{
+    color: rgb(51, 51, 51);
+}
+.menuPara{
+    color: rgb(51, 51, 51);
+}
+.staffPara{
+    color: rgb(51, 51, 51);
+}
+.customerPara{
+    color: rgb(51, 51, 51);
+}
+.mainPara{
+    color: rgb(51, 51, 51);
+    width: 25%;
+   line-height: 1.3;
+}
+

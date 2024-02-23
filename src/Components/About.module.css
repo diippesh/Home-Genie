@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.aboutContainer{
+    /* border: 1px solid #000; */
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.aboutPrimary{
+    width: 70%;
+    /* border: 1px solid #000; */
+    display: flex;
+    height: 650px;
+    justify-content: flex-end;
+}
+.fimage{
+    width: 309.487px;
+    height: 600px;
+    background-position: center center;
+    background-image: url(../assets/simage.png);
+    align-self: flex-start;
+    background-size: cover;
+    display: block;
+    /* margin-bottom: 30px; */
+}
+.simage{
+    display: block;
+    width: 309.487px;
+    height: 600px;
+    background-position: center center;
+    background-image: url(../assets/ssimage.png);
+    background-size: cover;
+    align-self: flex-end;
+    margin: 0px 30px;
+}
+.aboutSecondary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px;
+}
+.aboutHead{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100px;
+    color: rgb(200, 169, 126);
+    font-size: 100px;
+    border-bottom: 2px solid rgb(200, 169, 126);
+    margin: 20px 0;
+    width: 26%;
+    padding: 0;
+}
+.aboutHead2{
+    color: rgb(51, 51, 51);
+    font-size: 50px;
+    line-height: 60px;
+    /* border: 1px solid #000; */
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+.aboutSPara{
+    margin: 15px 0;
+    color: #666666;
+}
+.aboutSTime{
+    color: #666666;
+    margin: 15px 0;
+}
+.aboutSPhone{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(200, 169, 126);
+}
