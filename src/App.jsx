@@ -4,12 +4,14 @@ import About from './Components/About'
 import Counter from './Components/Counter'
 import ServicesHead from './Components/ServicesHead'
 import ServicesCards from './Components/ServicesCards'
+import Parallax from './Components/Parallax';
 function App() {
   return (
     // <Counter></Counter>
     // <About></About>
     // <ServicesHead></ServicesHead>
-    <ServicesCards></ServicesCards>
+    // <ServicesCards></ServicesCards>
+      <Parallax></Parallax>
     )
 }
 

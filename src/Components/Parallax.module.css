@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.mySec{
+    background: url('../assets/backgroundparallax.jpg');
+    min-height:50vw ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.meraContainer{
+    min-width: 50%;
+    display: flex;
+
+}
+.cnt1{
+   width: 75vw;
+}
+.cnt2{
+    background-color: white;
+    min-height: 80vh ;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+.meraSticker{
+
+    min-height: 20%;
+}
+.meraForm{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+
+}
+.formFlex{
+    display: flex;
+    justify-content: center;
+
+}
+.meraEle{
+    width: 45%;
+    align-items: center;
+}
+.meraEle label,input{
+    margin: 7px 0;
+}
+.meraEle label{
+    font-weight: 600;
+}
+.meraEle input{
+    height: 52px !important;
+    background: #fff !important;
+    color: #000000 !important;
+    font-size: 16px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.meraSubmit input{
+    background: #c8a97e;
+    border: 1px solid #c8a97e;
+    color: #fff;
+}
+.meraSubmit input:hover{
+    background: none;
+    color: #c8a97e;
+    border: 1px solid #c8a97e;
+}

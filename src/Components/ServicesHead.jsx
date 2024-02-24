@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './ServiceHead.module.css'
+import styles from './ServicesHead.module.css'
 function ServicesHead() {
   return (
     <div className={`${styles.serviceHead}`}>
